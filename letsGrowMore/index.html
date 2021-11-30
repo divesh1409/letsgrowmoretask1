@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">a -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <div class="tcb-bs-fullscreen">
+        <div id="carousel-example-generic" class="carousel slide carousel-bg" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active" style="background-image: url(./images/slide3.jpg);">
+                    <div class="container-one Heading-info resp-width">
+                        <h1>One page promising to fill all your needs!</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur explicabo perferendis
+                            quidem doloribus harum error libero, itaque vel consequatur quia voluptates sint nostrum
+                            consequuntur? Quia esse corrupti commodi animi hic.</p>
+                        <button>LEARN MORE</button>
+                        <button class="sec-btn">LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(./images/slide2.jpg);">
+                    <div class="container-one Heading-info resp-width">
+                        <h1>One page promising to fill all your needs!</h1>
+                        <p>The pain itself is pain, it loves the main adipisicing process. 
+                            Enhanced I will explain the enduring pains of these error-free situations, or the consequences that are the consequences of our pleasures? 
+                            This is because the mind is corrupted by selfish motives.</p>
+                        <button>LEARN MORE</button>
+                        <button>LEARN MORE</button>
+                    </div>
+                </div>
+               
+                <div class="item" style="background-image: url(./images/slide2.jpg);">
+                    <div class="container-one Heading-info resp-width">
+                        <h1>One page promising to fill all your needs!</h1>
+                        <p>The pain itself is pain, it loves the main adipisicing process. 
+                            Enhanced I will explain the enduring pains of these error-free situations, or the consequences that are the consequences of our pleasures? 
+                            This is because the mind is corrupted by selfish motives.</p>
+                        <button>LEARN MORE</button>
+                        <button>LEARN MORE</button>
+                    </div>
+                </div>
+               
+                <div class="item" style="background-image: url(./images/slide4.jpg);">
+                    <div class="container-one Heading-info resp-width">
+                        <h1>One page promising to fill all your needs!</h1>
+                        <p>The pain itself is pain, it loves the main adipisicing process. 
+                            Enhanced I will explain the enduring pains of these error-free situations, or the consequences that are the consequences of our pleasures? 
+                            This is because the mind is corrupted by selfish motives.</p>
+                        <button>LEARN MORE</button>
+                        <button>LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="welcome-section">
+        <div class="welcome container-one resp-width">
+            <h3>
+                Welcome to Zippy
+            </h3>
+            <p>The pain itself is pain, it loves the main adipisicing process. 
+                He hates rejecting, enduring pain and annoyance, which is called pleasure and pain.</p>
+        </div>
+        <div class="welcome-two container-one resp-flex">
+            <div class="icons-one">
+                <i class="fas fa-bell"></i>
+                <p>The pain itself is pain, it loves the main adipisicing process. 
+                    He hates rejecting, enduring pain and annoyance, which is called pleasure and pain.</p>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="icons-one">
+                <i class="fas fa-envelope"></i>
+                <p>The pain itself is pain, it loves the main adipisicing process. 
+                    He hates rejecting, enduring pain and annoyance, which is called pleasure and pain.</p>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="icons-one">
+                <i class="fas fa-server"></i>
+                <p>The pain itself is pain, it loves the main adipisicing process. 
+                    He hates rejecting, enduring pain and annoyance, which is called pleasure and pain.</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+    </div>
+    <div class="hr-line container-one"></div>
+    <div class="projects-section">
+        <h1>Projects</h1>
+        <div class="projects container-one resp-flex">
+            <div class="p1">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/p-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p1">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/p-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p1">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/p-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p1">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/p-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-plans">
+        <h1>Pricing Table</h1>
+        <div class="project-pricing container-one resp-flex">
+            <div class="plan-one">
+                <h3>STANDARD PLAN</h3>
+                <h4>Free</h4>
+                <p>2 Gb Available</p>
+                <p>15 max contacts</p>
+                <p>30 messages/month</p>
+                <p>Ongoing Ads</p>
+            </div>
+            <div class="plan-one">
+                <h3>STANDARD PLAN</h3>
+                <h4>Free</h4>
+                <p>2 Gb Available</p>
+                <p>15 max contacts</p>
+                <p>30 messages/month</p>
+                <p>Ongoing Ads</p>
+            </div>
+            <div class="plan-one">
+                <h3>STANDARD PLAN</h3>
+                <h4>Free</h4>
+                <p>2 Gb Available</p>
+                <p>15 max contacts</p>
+                <p>30 messages/month</p>
+                <p>Ongoing Ads</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-section">
+        <div class="video-scroll">
+            <div class="item">
+                <iframe width="420" height="235" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="420" height="235" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="420" height="235" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="420" height="335" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="420" height="335" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="420" height="335" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="420" height="335" src="https://www.youtube.com/embed/DPR3p3EJADo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="zippy-team">
+        <div class="team container-one resp-flex">
+            <h2>Zippy Team</h2>
+            <div class="team-names">
+                <div class="one resp-flex">
+                    <div class="person">
+                        <img src="./images/sara.jpg" alt="">
+                        <h3>SARA JOHNSON</h3>
+                        <p>Creative Head</p>
+                    </div>
+                    <div class="person">
+                        <img src="./images/sara.jpg" alt="">
+                        <h3>SARA JOHNSON</h3>
+                        <p>Creative Head</p>
+                    </div>
+                    <div class="person">
+                        <img src="./images/sara.jpg" alt="">
+                        <h3>SARA JOHNSON</h3>
+                        <p>Creative Head</p>
+                    </div>
+                </div>
+                <div class="two resp-flex">
+                    <div class="person">
+                        <img src="./images/sara.jpg" alt="">
+                        <h3>SARA JOHNSON</h3>
+                        <p>Creative Head</p>
+                    </div>
+                    <div class="person">
+                        <img src="./images/sara.jpg" alt="">
+                        <h3>SARA JOHNSON</h3>
+                        <p>Creative Head</p>
+                    </div>
+                    <div class="person">
+                        <img src="./images/sara.jpg" alt="">
+                        <h3>SARA JOHNSON</h3>
+                        <p>Creative Head</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="life-in-zippy">
+      <div class="inner-life container-one resp-flex">
+        <h1>Life IN Zippy</h1>
+        <img src="./images/people.jpg" alt="" width="800px">
+      </div>
+    </div>
+    <div class="news-letter" style="background-image: url(./images/bridge.jpg);background-size: contain no-repeat;">
+        <div class="inside-news container-one resp-flex">
+            <h2>Newsletter</h2>
+            <div class="search-box">
+                <input type="text" placeholder="abc@example.com">
+                <button>SIGN UP</button>
+            </div>
+                <button>SIGN UP</button>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="blog-container container-one resp-flex">
+            <div class="first">
+                <img src="./images/people-laptop.jpg" alt="" width="100%">
+                <h3>LOREM IPSUM DOLOR</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore incidunt quasi minus vel omnis officia dolor alias, veritatis magni reiciendis?</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="first">
+                <img src="./images/people-laptop.jpg" alt="" width="100%">
+                <h3>LOREM IPSUM DOLOR </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore incidunt quasi minus vel omnis officia dolor alias, veritatis magni reiciendis?</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="first">
+                <img src="./images/people-laptop.jpg" alt="" width="100%">
+                <h3>LOREM IPSUM DOLOR</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore incidunt quasi minus vel omnis officia dolor alias, veritatis magni reiciendis?</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </div>
+    <div class="form-section resp-flex">
+         <img src="./images/map-google.jpg" width="100%" >
+         <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="form-group">
+              <label for="">subject</label>
+              <input type="" class="form-control" id="exampleInputPassword1" placeholder="">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <label for="exampleFormControlTextarea1">message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button style="margin: 20px 0;" type="submit" class="btn btn-primary mt-3">Submit</button>
+          </form>
+        </div>
+        <div class="footer">
+            <div class="inner-section container-one resp-flex">
+            <div class="contact-us">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi ut veniam tenetur similique ullam.</p>
+            </div>
+            <div class="contact-us">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel vitae cupiditate modi culpa quod.
+            </div>
+            <div class="contact-us">
+                <p>8488484</p>
+                <p>zippy@gmail</p>
+                <p>enquiry@zippy</p>
+            </div>
+            </div>
+<<<<<<< HEAD
+        </div>       
+</body>
+=======
+        </div>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+</body>
+>>>>>>> d08ea48441dc7945bc289ec21c41ebd983b7d01e
